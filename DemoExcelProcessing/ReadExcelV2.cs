@@ -47,9 +47,6 @@ public class ReadExcelV2
                             string cellValue = GetCellValue(cell); 
                             values[index]= cellValue;
                             index++;
-                            // TODO Parse into Object
-                            //Console.Write(cellValue);
-                            //Console.Write(",");
                         }
 
                         var deviceDto = new DeviceDto();
